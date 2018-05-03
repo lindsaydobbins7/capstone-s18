@@ -12,7 +12,7 @@ html {
 /* Basic Styles */
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: "adobe-caslon-pro",serif;
 	font-size: 100%;
 	font-weight: 300;
 	line-height: 1.563em;
@@ -23,7 +23,9 @@ body {
 /* type-scale.com */
 
 p {
+	
 	margin: 0 0 1.3em 0;
+	font-family: "adobe-caslon-pro",serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,37 +35,41 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 3.157em;
-	font-weight: 700;
+	font-weight: 900;
+	color: #FFFFFF;
 }
 h2 {
-	font-family: 'Roboto Slab', serif;
-	font-size: 2.369em;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.777em	;
 	font-weight: 700;
+	color: #FFFFFF;
 }
 
 h3 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 1.777em;
 	font-weight: 700;
+	color: #FFFFFF;
 }
 
 h4 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 1em;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: .05em;
+	color: #FFFFFF;
 }
 h5 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 1em;
 	font-weight: 700;
 }
 
 h6 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Lato', sans-serif;
 	font-size: .05em;
 	font-weight: 700;
 }
@@ -243,6 +249,10 @@ a:active {
 
 /* Simple Grid */
 
+.columns_1 {
+	width:700px;
+	float:right;
+}
 
 .columns_2 {
 	width: 460px;
@@ -298,7 +308,7 @@ a:active {
 .row {
 	width: 100%;
 	float: left;
-	margin-bottom: 20px;
+	margin-bottom: 2px;
 }
 
 
