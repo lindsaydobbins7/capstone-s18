@@ -1,4 +1,15 @@
-$(".rslides").responsiveSlides({
+$.scrollIt({
+  upKey: 38,             // key code to navigate to the next section
+  downKey: 40,           // key code to navigate to the previous section
+  easing: 'linear',      // the easing function for animation
+  scrollTime: 600,       // how long (in ms) the animation takes
+  activeClass: 'active', // class given to the active nav element
+  onPageChange: null,    // function(pageIndex) that is called when page is changed
+  topOffset: 0           // offste (in px) for fixed top navigation
+});
+
+$(function() {
+    $(".rslides").responsiveSlides({
   auto: true,             // Boolean: Animate automatically, true or false
   speed: 500,            // Integer: Speed of the transition, in milliseconds
   timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
@@ -16,13 +27,43 @@ $(".rslides").responsiveSlides({
   before: function(){},   // Function: Before callback
   after: function(){}     // Function: After callback
 });
- 
-$.scrollIt({
-  upKey: 38,             // key code to navigate to the next section
-  downKey: 40,           // key code to navigate to the previous section
-  easing: 'linear',      // the easing function for animation
-  scrollTime: 600,       // how long (in ms) the animation takes
-  activeClass: 'active', // class given to the active nav element
-  onPageChange: null,    // function(pageIndex) that is called when page is changed
-  topOffset: 0           // offste (in px) for fixed top navigation
-});
+  });
+
+
+
+// grab an element
+var myElement = document.querySelector("header");
+// construct an instance of Headroom, passing the element
+var headroom  = new Headroom(myElement);
+// initialise
+headroom.init();
+
+$(document).ready(function() {
+  //To switch directions up/down and left/right just place a "-" in front of the top/left attribute
+  //Full Caption Sliding (Hidden to Visible)
+  $('.boxgrid.captionfull').hover(function() {
+    $(".cover", this).stop().animate({
+      top: '160px'
+         
+    }, {
+      
+      queue:false,
+      duration: 160
+    });
+  }, function() {
+    $(".cover", this).stop().animate({
+      top: '260px'
+      
+    }, {
+      queue: false,
+      duration: 160
+      
+    });
+    });
+  
+  });
+    
+ lightbox.option({
+  'resizeDuration': 200,
+  'wrapAround':true
+})
