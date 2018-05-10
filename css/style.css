@@ -16,7 +16,7 @@ header {
   display: block;
   background: url("../images/logotype.svg") no-repeat;
   text-indent: -999em;
-  /* my first hack */
+ 
 }
 
 /* Horizontal Navigation */
@@ -117,6 +117,8 @@ color:#58242A;
 /* End of Hero Slides */
 
 
+/* Home */
+
 
 .home {
   
@@ -141,7 +143,7 @@ h2 {
   font-weight: 900;
   color: #ffffff;
 text-align:center;
-  font-size: 2em;
+  font-size: 2.5em;
   margin-bottom:20px;
   
 }
@@ -249,7 +251,7 @@ p {
 }
 
 #campaign a:hover {
-  color: #FFFFFF;
+  color: #21407c;
   text-decoration: none;
 }
 
@@ -290,13 +292,6 @@ p {
   text-align:center;
 }
 
-.contact-form img {
-	width: 460px;
-	padding: 0;
-	font-family: 'Lato', sans-serif;
-	font-weight: 100px;
-	color: #FFFFFF;
-}
 
 .form {
 	padding-top:80px;
@@ -399,7 +394,7 @@ p {
 }
 
 .articles-btn a:hover {
-	color: #ffffff;
+	color: #21407c;
 	text-decoration: none;
 	background-color: #434141;
 }
@@ -437,14 +432,16 @@ p {
 }
 
 
-.section-heads{
-  color:#ffffff;
-  margin-bottom: 60px;
-  padding-top:80px;
-  font-size:2em;
-  font-weight:700;
-}
 
+
+#about {
+	width: 100%;
+	color:#ffffff;
+	background-color: #58242A;
+	float: left;
+  margin-top:100px;
+ 
+}
 .about-head {
   padding-top:100px;
   padding-bottom:60px;
@@ -456,14 +453,7 @@ p {
 	font-weight: 900;
 	color: #FFFFFF;
 }
-#about {
-	width: 100%;
-	color:#ffffff;
-	background-color: #58242A;
-	float: left;
-  margin-top:100px;
- 
-}
+
 
 
 .learn-more {
@@ -485,25 +475,6 @@ footer {
   padding: 30px 0 30px 0;
 }
 
-footer a:link {
-  color: #ffffff;
-  text-decoration: none;
-}
-footer a:visited {
-  color: #ffffff;
-  text-decoration: none;
-}
-footer a:hover {
-  color: #ffffff;
-}
-footer a:active {
-  color: #ffffff;
-}
-.footer-logo img {
-  float: left;
-  height: 161px;
-  padding: 8px;
-}
 
 .social-media {
   float:right;
