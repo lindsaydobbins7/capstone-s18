@@ -318,9 +318,8 @@ p {
 	font-size:1em;
 }
 
-.contact-form input,
-.contact-form input {
-	padding:10px;
+.contact-form input{
+	padding:20px;
 }
 
 
@@ -344,7 +343,7 @@ p {
 /* End Contact */
 
 
-.news {
+#news {
 	width: 100%;
 	padding: 100px 0 100px 0;
 	background-color: #ffffff;
@@ -352,14 +351,14 @@ p {
 	text-align: center;
 }
 
-.news h2 {
+#news h2 {
   color:#21407c;
   font-size:2.5em;
   font-weight:900;
 }
 
 
-.news h3 {
+#news h3 {
   color:#21407c;
   padding-bottom:70px;
   line-height:25px;
@@ -457,12 +456,11 @@ p {
 	font-weight: 900;
 	color: #FFFFFF;
 }
-.about {
+#about {
 	width: 100%;
-
 	color:#ffffff;
 	background-color: #58242A;
-	float: center;
+	float: left;
   margin-top:100px;
  
 }
