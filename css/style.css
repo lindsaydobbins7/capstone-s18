@@ -506,15 +506,17 @@ footer a:active {
 }
 
 .social-media {
-  float:center;
+  float:right;
   width:100%;
 }
 .social-icons li {
- float:right;
+
   list-style-type: none;
   display: inline-block;
   color: #ffffff;
   padding-right: 15px;
+	padding-top:10px;
+	text-align:right;
   
 }
 .social-icons a:link {
@@ -539,11 +541,13 @@ footer a:active {
 .fa-twitter-square,
 .fa-instagram {
   color: #ffffff;
-  font-size: 1.9em;
-	
+  font-size: 1.7em;
+	float:right;
 }
 
-
+.social-media {
+	text-align:right;
+}
 footer a:link {
   color: #FFFFFF;
   text-decoration: none;

@@ -75,8 +75,10 @@ h5 {
 
 h6 {
 	font-family: 'Lato', sans-serif;
-	font-size: .05em;
-	font-weight: 700;
+	font-size: .8em;
+	font-weight: 400;
+	color:#ffffff;
+	float:right;
 }
 
 .small-type {
