@@ -7,8 +7,8 @@ header {
 }
 
 .branding {
-  width: 170px;
-  height: 30px;
+  width: 300px;
+  height: 100px;
   float: left;
   display: block;
   background: url("../images/logotype.svg") no-repeat;
@@ -88,7 +88,7 @@ nav li a:active {
 
 .hero-slide-show img{
   opacity:0.5;
- 
+
 }
 .image-overlay{
 	position: absolute;
@@ -97,12 +97,16 @@ nav li a:active {
 	width: 100%;
 	z-index: 100;
 
-	
+
 	overflow: visible;
-  
+
 }
 .image-overlay h1 {
+<<<<<<< Updated upstream
   margin-top:150px;
+=======
+
+>>>>>>> Stashed changes
 
   font-size:3.5em;
 color:#58242A;
@@ -115,9 +119,9 @@ color:#58242A;
 
 
 .home {
-  
-  
-  
+
+
+
   background-color:#002266;
 }
 
@@ -129,7 +133,7 @@ h1 {
   line-height:40px;
   margin-top:60px;
   margin-bottom:60px;
- 
+
 }
 
 h2 {
@@ -139,7 +143,7 @@ h2 {
 text-align:center;
   font-size: 2em;
   margin-bottom:20px;
-  
+
 }
 
 h3 {
@@ -154,7 +158,7 @@ h3 {
 h4 {
   font-family: 'Lato', sans-serif;
   margin:0;
- 
+
 }
 p {
   font-family: "adobe-caslon-pro",serif;
@@ -167,7 +171,7 @@ p {
 .subhead {
   font-family: 'Lato', sans-serif;
   font-weight:400;
-  
+
 }
 
 
@@ -200,7 +204,7 @@ p {
 .button:hover {
   background-color: #1049B5;
 }
-	
+
 
 
 
@@ -240,7 +244,7 @@ p {
 
 .the-campaign {
   margin-bottom:100px;
- 
+
 }
 .section-text {
   text-align:center;
@@ -278,7 +282,7 @@ p {
 .campaign-link {
   color:#000000;
   text-align:center;
-  
+
 }
 
 
@@ -290,7 +294,7 @@ p {
 	padding: 100px 0 100px 0;
 	background-color: #007c00;
 	float: left;
- 
+
 }
 
 
@@ -372,7 +376,7 @@ p {
   line-height:25px;
   text-transform:uppercase;
   font-weight:400;
-  
+
 }
 
 
@@ -446,8 +450,8 @@ h5 {
 .video {
   padding-top: 100px;
   align-content:center;
-  
-  
+
+
 }
 
 .section-heads2{
@@ -484,7 +488,7 @@ h5 {
 
 .columns_2 {
   margin-right:20px;
-  
+
   margin-bottom:80px;
 }
 
@@ -574,6 +578,7 @@ footer a:hover {
 
 footer a:active {
   color: #FFFFFF;
+<<<<<<< Updated upstream
 }
 
 
@@ -583,8 +588,15 @@ footer a:active {
   width: 100%;
   color: #FFFFFF;
   font-size:1.2em;
-  
+
 }
+
+
+=======
+
+
+
+
 
 
 .copyright p {
